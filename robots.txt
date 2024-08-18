@@ -1,0 +1,10 @@
+# 全てのクローラー(ボット)を拒否
+User-agent: *
+Disallow: /
+
+# Google 検索のクローラーのみ許可
+User-agent: Googlebot
+Allow: /
+
+# 許可したクローラーへのサイトマップ指定
+Sitemap: https://yutfur.com/sitemap.xml
